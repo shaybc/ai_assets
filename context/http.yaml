@@ -1,7 +1,21 @@
 name: @HTTP
 version: 1.0.0
 schema: v1
-description: The HttpContextProvider makes a POST request to the url passed in the configuration. The server must return 200 OK with a ContextItem object or an array of ContextItems. The receiving URL should expect to receive the following parameters: POST parameters ```{  query: string,  fullInput: string}``` The response 200 OK should be a JSON object with the following structure: ```[  {    "name": "",    "description": "",    "content": ""  }]// OR{  "name": "",  "description": "",  "content": ""}```
+description: |
+  The HttpContextProvider makes a POST request to the url passed in the configuration.
+  The server must return 200 OK with a ContextItem object or an array of ContextItems.
+  The receiving URL should expect to receive the following parameters:
+  
+  POST parameters
+  ```{  query: string,  fullInput: string}```
+  
+  The response 200 OK should be a JSON object with the following structure:
+  
+  Response:
+  ```[  {    "name": "",    "description": "",    "content": ""  }]
+     // OR
+     {  "name": "",  "description": "",  "content": ""}
+  ```
 
 context:
   - provider: http
