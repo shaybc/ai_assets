@@ -20,6 +20,6 @@ description: |
 context:
   - provider: http
     params:
-      url: "<api_url>" # https://api.example.com/v1/users
+      url: "!<api_url>" # https://api.example.com/v1/users
       headers:
-        - Authorization: "Bearer <token>"
+        - Authorization: "Bearer !<token>"
