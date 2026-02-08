@@ -1,9 +1,11 @@
 ---
+alwaysApply: false
 name: Using Flags
 description: When I'm implementing a new feature
-alwaysApply: false
+version: '0.1'
+tags:
+  - angular
 ---
-
 Rule 1: LaunchDarkly Evaluation Must Be Centralized
 
 - All variation and variationDetail calls must go through a shared evaluation function.
