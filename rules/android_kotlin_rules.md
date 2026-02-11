@@ -1,9 +1,11 @@
 ---
 alwaysApply: false
-name: Android Kotlin & Compose Rules
+name: Android Kotlin & Compose
 dcc_uri: dev/rules/android_kotlin_rules
-description: Android development rules for Kotlin and Jetpack Compose (API 26+, Compose BOM 2024+). Extends core and frontend-core rules.
-version: '1.0.0'
+description: >-
+  Android development rules for Kotlin and Jetpack Compose (API 26+, Compose BOM
+  2024+). Extends core and frontend-core rules.
+version: '1.1'
 dcc_tags:
   - dev
   - frontend
@@ -11,7 +13,6 @@ dcc_tags:
   - kotlin
   - compose
 ---
-
 # Android Kotlin & Compose Rules
 
 These rules apply to all Android projects and extend the core and frontend-core rules.
