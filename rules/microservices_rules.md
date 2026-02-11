@@ -1,9 +1,11 @@
 ---
 alwaysApply: false
-name: Backend Java + Spring Microservice Rules
+name: Java Spring Microservice
 dcc_uri: dev/rules/microservices_rules
-description: Java + Spring Boot microservice rules (Spring Boot 3.x, Java 21+). Extends core, backend-core, and backend-java rules.
-version: '1.0.0'
+description: >-
+  Java + Spring Boot microservice rules (Spring Boot 3.x, Java 21+). Extends
+  core, backend-core, and backend-java rules.
+version: '1.1'
 dcc_tags:
   - dev
   - backend
@@ -11,7 +13,6 @@ dcc_tags:
   - spring
   - microservices
 ---
-
 # Backend Java + Spring Microservice Rules (Spring Boot 3.x / Java 21+)
 
 These rules apply to Java microservices built with Spring Boot and extend the core, backend-core, and backend-java rules.
