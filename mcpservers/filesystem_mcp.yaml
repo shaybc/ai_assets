@@ -1,0 +1,15 @@
+name: Filesystem MCP Server
+dcc_uri: dev/mcpservers/filesystem_mcp
+description: Local filesystem access with configurable allowed paths
+version: 1.0.0
+schema: v1
+dcc_tags:
+  - mongodb
+
+mcpServers:
+  - name: Filesystem
+    command: npx
+    args:
+      - "-y"
+      - "@modelcontextprotocol/server-filesystem"
+      - "${{ inputs.PATH }}"
