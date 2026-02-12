@@ -1,0 +1,17 @@
+name: MongoDB MCP Server
+dcc_uri: dev/mcpservers/mongodb_mcp
+description: A Model Context Protocol server for interacting with MongoDB Databases and MongoDB Atlas. Learn more: https://github.com/mongodb-js/mongodb-mcp-server
+version: 1.0.0
+schema: v1
+dcc_tags:
+  - mongodb
+
+mcpServers:
+  - name: MongoDB Server
+    command: npx
+    args:
+      - -y
+      - mongodb-mcp-server
+      - --connectionString
+      - ${{ inputs.CONNECTION_STRING }}
+      - --readOnly
