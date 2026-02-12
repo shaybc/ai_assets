@@ -1,0 +1,13 @@
+name: Java Docs
+dcc_uri: dev/docs/java_docs
+version: "1.0"
+schema: v1
+description: Official Java 21 LTS documentation including API reference and language guides
+dcc_tags:
+  - backend
+  - java
+docs:
+  - name: Java 21 API
+    startUrl: https://docs.oracle.com/en/java/javase/21/docs/api/index.html
+  - name: Java Language Guide
+    startUrl: https://docs.oracle.com/en/java/javase/21/language/index.html

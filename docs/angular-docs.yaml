@@ -1,0 +1,12 @@
+name: Angular Docs
+dcc_uri: dev/docs/angular_docs
+version: "1.0"
+schema: v1
+description: Official Angular documentation including guides, API reference, and CLI
+dcc_tags:
+  - frontend
+  - angular
+  - typescript
+docs:
+  - name: Angular
+    startUrl: https://angular.dev/overview

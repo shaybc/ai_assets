@@ -1,0 +1,13 @@
+name: Python Docs
+dcc_uri: dev/docs/python_docs
+version: "1.0"
+schema: v1
+description: Official Python 3 documentation including standard library and language reference
+dcc_tags:
+  - backend
+  - python
+docs:
+  - name: Python 3 Standard Library
+    startUrl: https://docs.python.org/3/library/index.html
+  - name: Python Language Reference
+    startUrl: https://docs.python.org/3/reference/index.html

@@ -1,0 +1,15 @@
+name: SwiftUI Docs
+dcc_uri: dev/docs/swiftui_docs
+version: "1.0"
+schema: v1
+description: Official Apple SwiftUI and Swift documentation
+dcc_tags:
+  - frontend
+  - ios
+  - swift
+  - swiftui
+docs:
+  - name: SwiftUI
+    startUrl: https://developer.apple.com/documentation/swiftui
+  - name: Swift Language
+    startUrl: https://docs.swift.org/swift-book/documentation/the-swift-programming-language/

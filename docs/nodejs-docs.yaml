@@ -1,0 +1,12 @@
+name: Node.js Docs
+dcc_uri: dev/docs/nodejs_docs
+version: "1.0"
+schema: v1
+description: Official Node.js 20 LTS documentation including API reference and guides
+dcc_tags:
+  - backend
+  - nodejs
+  - javascript
+docs:
+  - name: Node.js API
+    startUrl: https://nodejs.org/docs/latest-v20.x/api/index.html

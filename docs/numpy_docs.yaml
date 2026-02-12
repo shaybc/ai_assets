@@ -1,5 +1,5 @@
 name: NumPy Docs
-dcc_uri: dev/docs/pandas_docs
+dcc_uri: dev/docs/numpy_docs
 version: "1.1"
 schema: v1
 description: this is python NumPy documentation

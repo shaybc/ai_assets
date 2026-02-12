@@ -1,0 +1,16 @@
+name: Kotlin Docs
+dcc_uri: dev/docs/kotlin_docs
+version: "1.0"
+schema: v1
+description: Official Kotlin language documentation and Android developer reference
+dcc_tags:
+  - frontend
+  - android
+  - kotlin
+docs:
+  - name: Kotlin Language
+    startUrl: https://kotlinlang.org/docs/home.html
+  - name: Kotlin Coroutines
+    startUrl: https://kotlinlang.org/docs/coroutines-overview.html
+  - name: Android Developer
+    startUrl: https://developer.android.com/develop
