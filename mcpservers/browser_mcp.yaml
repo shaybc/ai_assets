@@ -1,0 +1,14 @@
+name: Browser MCP Server
+dcc_uri: dev/mcpservers/browsaer_mcp
+description: With Browser MCP, you can use MCP to automate your browser so that AI applications can navigate the web, fill out forms, and more. https://browsermcp.io/
+version: 1.0.0
+schema: v1
+dcc_tags:
+  - browser
+
+mcpServers:
+  - name: Browser MCP
+    command: npx
+    args:
+      - -y
+      - "@browsermcp/mcp@latest"
