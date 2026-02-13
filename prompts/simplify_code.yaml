@@ -1,29 +1,32 @@
 name: Simplify Code
 dcc_uri: dev/prompts/simplify_code
-version: 0.0.2
+version: "0.1"
 schema: v1
+description: ""
 dcc_tags:
   - dev
   - backend
   - frontend
-
+  - mobile
 prompts:
   - name: simplify
     description: Simplify attached code without changing its functionality
     prompt: >
       Simplify the following code without changing its behaviour.
 
-      Rules:
-      - Remove duplication, dead branches, and unnecessary abstraction
-      - Prefer the language's idiomatic constructs over verbose equivalents
-      - Reduce nesting — flatten conditions, use early returns
-      - Prefer clarity over brevity — a shorter solution that requires a comment to understand is not simpler
-      - Remove comments that describe what the code does; keep only comments that explain why
-      - Do not remove error handling, null guards, or defensive checks even if they appear redundant — they may be intentional
-      - Do not change public interfaces, function signatures, or observable behaviour
-      - Do not add new functionality, logging, or error handling that wasn't there before
-      - If the code references or defines something that may be used outside this selection, do not inline or remove it — flag it with a comment instead
-      - Prefer changes that produce a minimal diff — restructure only what meaningfully improves the code, not everything that could theoretically be rewritten
+      Rules: - Remove duplication, dead branches, and unnecessary abstraction -
+      Prefer the language's idiomatic constructs over verbose equivalents -
+      Reduce nesting — flatten conditions, use early returns - Prefer clarity
+      over brevity — a shorter solution that requires a comment to understand is
+      not simpler - Remove comments that describe what the code does; keep only
+      comments that explain why - Do not remove error handling, null guards, or
+      defensive checks even if they appear redundant — they may be intentional -
+      Do not change public interfaces, function signatures, or observable
+      behaviour - Do not add new functionality, logging, or error handling that
+      wasn't there before - If the code references or defines something that may
+      be used outside this selection, do not inline or remove it — flag it with
+      a comment instead - Prefer changes that produce a minimal diff —
+      restructure only what meaningfully improves the code, not everything that
+      could theoretically be rewritten
 
       Return only the simplified code — no explanation, no markdown wrapper.
-
