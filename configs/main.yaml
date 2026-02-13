@@ -1,13 +1,12 @@
 name: Main Config
 dcc_uri: configs/main
-version: "1.1"
+version: "1.2"
 schema: v1
 description: this is my test configuration to show that multiple definitions can
   be bundled into one config file
 dcc_tags:
   - angular
-  - front-end team
-
+  - frontend
 dcc_config_type: ide
 models: []
 context:
