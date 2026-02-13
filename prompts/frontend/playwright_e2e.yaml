@@ -1,15 +1,16 @@
 name: Playwright E2E Tests
-version: 0.0.1
-schema: v1
 dcc_uri: dev/prompts/playwright_e2e
+version: "0.1"
+schema: v1
+description: ""
 dcc_tags:
-  - front-end
+  - frontend
   - web
   - angular
-
 prompts:
   - name: Playwright e2e test
-    description: Scaffold Playwright e2e tests following the project's selector/action/test structure
+    description: Scaffold Playwright e2e tests following the project's
+      selector/action/test structure
     prompt: >-
       Write Playwright e2e tests for the following feature or flow:
 
@@ -26,8 +27,8 @@ prompts:
 
       **1. Selectors** → `app/tests/_selectors/[Name].selectors.ts`
 
-      Responsible only for locating elements. No actions, no assertions.
-      Use `getByRole`, `getByLabel`, or `getByTestId` exclusively — never CSS
+      Responsible only for locating elements. No actions, no assertions. Use
+      `getByRole`, `getByLabel`, or `getByTestId` exclusively — never CSS
       selectors or XPath.
 
       ```ts
@@ -105,13 +106,16 @@ prompts:
 
       ## Rules
 
-      - Selectors locate only — no clicks, fills, or assertions inside a selector class
+      - Selectors locate only — no clicks, fills, or assertions inside a
+      selector class
 
-      - Actions compose selectors into flows — no assertions inside an action class
+      - Actions compose selectors into flows — no assertions inside an action
+      class
 
       - Assertions belong in the test file only
 
-      - If a selector or action class already exists for the relevant page, extend it rather than creating a new one
+      - If a selector or action class already exists for the relevant page,
+      extend it rather than creating a new one
 
       - Cover at minimum: happy path + one validation or failure case
 
