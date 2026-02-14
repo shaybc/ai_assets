@@ -1,10 +1,13 @@
 name: "@Debugger"
-version: 1.0.0
+dcc_uri: dev/context/debugger
+version: "1.1"
 schema: v1
-dcc_uri: context/debugger
-description: Reference the contents of the local variables in the debugger. Currently only available in VS Code. Uses the top n levels (defaulting to 3) of the call stack for that thread.
-
+description: Reference the contents of the local variables in the debugger.
+  Currently only available in VS Code. Uses the top n levels (defaulting to 3)
+  of the call stack for that thread.
+dcc_tags: []
 context:
   - provider: debugger
     params:
-      stackDepth: 3
+      - key: stackDepth
+        value: "3"
