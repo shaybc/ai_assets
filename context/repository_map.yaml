@@ -1,10 +1,19 @@
 name: "@Repository Map"
-version: 1.0.0
+dcc_uri: dev/context/repository_map
+version: "1.1"
 schema: v1
-dcc_uri: context/repository_map
-description: Reference the outline of your codebase. By default, signatures are included along with file in the repo map. includeSignatures params can be set to false to exclude signatures. This could be necessary for large codebases and/or to reduce context size significantly. Signatures will not be included if indexing is disabled. Provides a list of files and the call signatures of top-level classes, functions, and methods in those files. This helps the model better understand how a particular piece of code relates to the rest of the codebase. In the submenu that appears, you can select either Entire codebase, or specify a subfolder to generate the repostiory map from.
-
+description: Reference the outline of your codebase. By default, signatures are
+  included along with file in the repo map. includeSignatures params can be set
+  to false to exclude signatures. This could be necessary for large codebases
+  and/or to reduce context size significantly. Signatures will not be included
+  if indexing is disabled. Provides a list of files and the call signatures of
+  top-level classes, functions, and methods in those files. This helps the model
+  better understand how a particular piece of code relates to the rest of the
+  codebase. In the submenu that appears, you can select either Entire codebase,
+  or specify a subfolder to generate the repostiory map from.
+dcc_tags: []
 context:
   - provider: repo-map
     params:
-      includeSignatures: false # default true
+      - key: includeSignatures
+        value: "false"
