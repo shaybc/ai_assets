@@ -1,8 +1,8 @@
 name: "@Problems"
-version: 1.0.0
+dcc_uri: dev/context/problems
+version: "1.1"
 schema: v1
-dcc_uri: context/problems
 description: Get Problems from the current file.
-
+dcc_tags: []
 context:
   - provider: problems
