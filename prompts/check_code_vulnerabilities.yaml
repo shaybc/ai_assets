@@ -1,6 +1,6 @@
 name: Check Vulnerabilities
-dcc_uri: prompts/check_code_vulnerabilities
-version: "1.1"
+dcc_uri: dev/prompts/check_code_vulnerabilities
+version: "1.2"
 schema: v1
 description: check code for vulnerabilities
 dcc_tags:
