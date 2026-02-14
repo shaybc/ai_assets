@@ -1,8 +1,8 @@
 name: "@Terminal"
-version: 1.0.0
+dcc_uri: dev/context/terminal
+version: "1.1"
 schema: v1
-dcc_uri: context/terminal
 description: Reference the last command you ran in your IDE’s terminal and its output.
-
+dcc_tags: []
 context:
   - provider: terminal
