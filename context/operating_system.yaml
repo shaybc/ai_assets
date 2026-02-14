@@ -1,8 +1,8 @@
 name: "@Operating System"
-version: 1.0.0
+dcc_uri: dev/context/operating_system
+version: "1.1"
 schema: v1
-dcc_uri: context/operating_system
 description: Reference the architecture and platform of your current operating system.
-
+dcc_tags: []
 context:
   - provider: os
