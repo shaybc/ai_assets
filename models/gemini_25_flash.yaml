@@ -1,6 +1,6 @@
 name: Gemini 2.5 Flash via Shim
 dcc_uri: dev/models/gemini_25_flash
-version: "1.2"
+version: "1.3"
 schema: v1
 description: DCC server routing to model Gemini 2.5 Flash through an OpenAI-compatible shim
 dcc_tags:
@@ -9,7 +9,7 @@ models:
   - name: Gemini 2.5 Flash
     provider: openai
     model: gemini-2.5-flash
-    apiBase: http://localhost7331/v1
+    apiBase: http://localhost:7331/v1
     roles:
       - chat
       - edit
