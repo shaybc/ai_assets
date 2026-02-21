@@ -2,7 +2,7 @@ name: Playwright E2E Tests
 dcc_uri: dev/prompts/playwright_e2e
 version: "0.1"
 schema: v1
-description: ""
+description: "Scaffold Playwright e2e tests"
 dcc_definition_type: prompt
 dcc_tags:
   - frontend
@@ -10,8 +10,7 @@ dcc_tags:
   - angular
 prompts:
   - name: Playwright e2e test
-    description: Scaffold Playwright e2e tests following the project's
-      selector/action/test structure
+    description: Scaffold Playwright e2e tests following the project's selector/action/test structure
     prompt: >-
       Write Playwright e2e tests for the following feature or flow:
 

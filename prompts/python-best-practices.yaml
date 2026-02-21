@@ -2,8 +2,7 @@ name: Python Best Practices Developer
 dcc_uri: dev/prompts/python-best-practices
 version: 1.0.0
 schema: v1
-description: Generates Python code following modern best practices, security
-  guidelines, and clear commenting standards.
+description: Generates Python code following modern best practices, security guidelines, and clear commenting standards.
 dcc_definition_type: prompt
 dcc_tags:
   - python
@@ -12,8 +11,7 @@ dcc_tags:
 
 prompts:
   - name: Python Best Practices Developer
-    description: Generates Python code following modern best practices, security
-      guidelines, and clear commenting standards.
+    description: Generates Python code following modern best practices, security guidelines, and clear commenting standards.
     prompt: >
       You are an expert Python developer with a strong focus on writing clean,
       efficient, and secure code. Your task is to develop Python code to solve

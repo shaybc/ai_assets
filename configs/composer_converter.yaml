@@ -2,8 +2,7 @@ name: Composer Converter
 dcc_uri: dev/configs/composer_converter
 version: "1.1"
 schema: v1
-description: Config that supports converting composer wsbcc xml files into clean
-  native java code.
+description: Config that supports converting composer wsbcc xml files into clean native java code.
 dcc_definition_type: config
 dcc_tags:
   - backend

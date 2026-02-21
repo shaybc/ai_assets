@@ -2,8 +2,7 @@ name: UI Worker
 dcc_uri: dev/config/ui_worker2
 version: 1.0.0
 schema: v1
-description: this configuration bundles all the UI related prompts, rules and
-  context to allow easier developer-to-AI interaction on UI tasks.
+description: this configuration bundles all the UI related prompts, rules and context to allow easier developer-to-AI interaction on UI tasks.
 dcc_definition_type: config
 dcc_tags:
   - frontend

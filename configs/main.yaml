@@ -2,8 +2,7 @@ name: Test Config
 dcc_uri: dev/configs/main
 version: "1.4"
 schema: v1
-description: this is my test configuration to show that multiple definitions can
-  be bundled into one config file
+description: this is my test configuration to show that multiple definitions can be bundled into one config file
 dcc_definition_type: config
 dcc_tags:
   - angular

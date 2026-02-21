@@ -2,7 +2,8 @@ name: "@Debugger"
 dcc_uri: dev/context/debugger
 version: "1.1"
 schema: v1
-description: Reference the contents of the local variables in the debugger.
+description: |-
+  Reference the contents of the local variables in the debugger.
   Currently only available in VS Code. Uses the top n levels (defaulting to 3)
   of the call stack for that thread.
 dcc_definition_type: context

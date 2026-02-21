@@ -2,8 +2,7 @@ name: "@Open"
 dcc_uri: dev/context/open
 version: "1.1"
 schema: v1
-description: Reference the contents of all of your open files. Set onlyPinned to
-  true to only reference pinned files.
+description: Reference the contents of all of your open files. Set onlyPinned to true to only reference pinned files.
 dcc_definition_type: context
 dcc_tags: []
 context:
