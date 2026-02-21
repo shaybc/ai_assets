@@ -3,6 +3,7 @@ dcc_uri: dev/mcpservers/filesystem_mcp
 description: Local filesystem access with configurable allowed paths
 version: 1.0.0
 schema: v1
+dcc_definition_type: mcp_server
 dcc_tags:
   - filesystem
 

@@ -3,6 +3,7 @@ dcc_uri: dev/docs/continue_docs
 version: "1.2"
 schema: v1
 description: this is continue.dev official documentation
+dcc_definition_type: doc
 dcc_tags: []
 docs:
   - name: Continue

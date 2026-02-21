@@ -6,6 +6,7 @@ description: >-
   Android development rules for Kotlin and Jetpack Compose (API 26+, Compose BOM
   2024+). Extends core and frontend-core rules.
 version: '1.2'
+dcc_definition_type: rule
 dcc_tags:
   - dev
   - frontend

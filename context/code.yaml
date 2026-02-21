@@ -3,6 +3,7 @@ dcc_uri: dev/context/code
 version: "1.1"
 schema: v1
 description: Reference specific functions or classes from throughout your project.
+dcc_definition_type: context
 dcc_tags: []
 context:
   - provider: code

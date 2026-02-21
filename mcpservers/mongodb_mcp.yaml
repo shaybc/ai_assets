@@ -3,6 +3,7 @@ dcc_uri: dev/mcpservers/mongodb_mcp
 description: A Model Context Protocol server for interacting with MongoDB Databases and MongoDB Atlas. Learn more: https://github.com/mongodb-js/mongodb-mcp-server
 version: 1.0.0
 schema: v1
+dcc_definition_type: mcp_server
 dcc_tags:
   - mongodb
 

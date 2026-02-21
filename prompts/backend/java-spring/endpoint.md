@@ -4,6 +4,7 @@ dcc_uri: dev/prompts/be_ms_create_endpoint
 description: Scaffold a Spring Boot REST endpoint with all required layers
 invokable: true
 version: '0.1'
+dcc_definition_type: prompt
 dcc_tags:
   - dev
   - backend

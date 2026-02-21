@@ -1,9 +1,10 @@
 ---
 alwaysApply: false
 name: Debugging rules
-dcc_uri: dev/rules/debugging-rules
-description: Minimal, high-signal rules for effective debugging: reproduce, isolate, test hypotheses, and verify fixes during debugging tasks.
+dcc_uri: dev/rules/debugging_rules
+description: 'Minimal, high-signal rules for effective debugging: reproduce, isolate, test hypotheses, and verify fixes during debugging tasks.'
 version: '1.0.0'
+dcc_definition_type: rule
 dcc_tags:
   - dev
   - debug

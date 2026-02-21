@@ -3,6 +3,7 @@ dcc_uri: dev/docs/csharp_docs
 version: "1.0"
 schema: v1
 description: Official C# language documentation and .NET API reference
+dcc_definition_type: doc
 dcc_tags:
   - backend
   - csharp

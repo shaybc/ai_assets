@@ -6,6 +6,7 @@ description: >-
   iOS development rules for Swift and SwiftUI (iOS 17+). Extends core and
   frontend-core rules.
 version: '1.1'
+dcc_definition_type: rule
 dcc_tags:
   - dev
   - frontend

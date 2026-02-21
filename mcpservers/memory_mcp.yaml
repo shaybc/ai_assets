@@ -3,6 +3,7 @@ dcc_uri: dev/mcpservers/memory_mcp
 description: Lightweight MCP server that provides in-memory context storage for Continue, enabling temporary state sharing and short-term memory across agent interactions.
 version: 1.0.0
 schema: v1
+dcc_definition_type: mcp_server
 dcc_tags:
   - memory
 

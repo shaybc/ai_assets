@@ -3,6 +3,7 @@ dcc_uri: dev/docs/java_docs
 version: "1.0"
 schema: v1
 description: Official Java 21 LTS documentation including API reference and language guides
+dcc_definition_type: doc
 dcc_tags:
   - backend
   - java

@@ -3,6 +3,7 @@ dcc_uri: dev/docs/pandas_docs
 version: "1.1"
 schema: v1
 description: this is python Pandas documentation
+dcc_definition_type: doc
 dcc_tags:
   - python
   - pandas

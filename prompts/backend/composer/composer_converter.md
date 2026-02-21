@@ -4,6 +4,7 @@ dcc_uri: dev/prompts/composer_converter
 version: '0.2'
 schema: v1
 description: Converts a WSBCC XML operation definition into a standalone Java program
+dcc_definition_type: prompt
 dcc_tags:
   - dev
   - composer

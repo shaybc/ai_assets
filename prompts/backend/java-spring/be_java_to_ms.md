@@ -6,6 +6,7 @@ schema: v1
 description: >-
   Convert a Java class into a production-ready Spring Boot microservice with
   Docker and Kubernetes Helm charts
+dcc_definition_type: prompt
 dcc_tags:
   - dev
   - spring

@@ -4,6 +4,7 @@ dcc_uri: dev/prompts/commit_message
 version: '1.0.0'
 schema: ''
 description: Generate a conventional commit message from the current change
+dcc_definition_type: prompt
 dcc_tags:
   - dev
 invokable: true

@@ -4,6 +4,7 @@ name: Dev Core Rules
 dcc_uri: dev/rules/dev-core-rules
 description: 'Core development rules for quality, maintainability, testing, and delivery.'
 version: '1.3'
+dcc_definition_type: rule
 dcc_tags:
   - dev
   - mobile

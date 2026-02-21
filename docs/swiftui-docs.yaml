@@ -3,6 +3,7 @@ dcc_uri: dev/docs/swiftui_docs
 version: "1.1"
 schema: v1
 description: Official Apple SwiftUI and Swift documentation
+dcc_definition_type: doc
 dcc_tags:
   - frontend
   - ios

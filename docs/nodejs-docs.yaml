@@ -3,6 +3,7 @@ dcc_uri: dev/docs/nodejs_docs
 version: "1.0"
 schema: v1
 description: Official Node.js 20 LTS documentation including API reference and guides
+dcc_definition_type: doc
 dcc_tags:
   - backend
   - nodejs

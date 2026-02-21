@@ -3,6 +3,7 @@ dcc_uri: dev/docs/spring_docs
 version: "1.0"
 schema: v1
 description: Official Spring Framework and Spring Boot documentation
+dcc_definition_type: doc
 dcc_tags:
   - backend
   - java

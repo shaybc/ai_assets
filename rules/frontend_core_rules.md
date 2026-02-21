@@ -1,10 +1,10 @@
-
 ---
 alwaysApply: true
 name: Frontend Core Rules
 dcc_uri: dev/rules/frontend_core_rules
 description: Core frontend development rules for component quality, state, UI correctness, and accessibility. Technology-agnostic; platform-specific rules are layered on top.
 version: '1.0.0'
+dcc_definition_type: rule
 dcc_tags:
   - dev
   - frontend

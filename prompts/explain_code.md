@@ -4,6 +4,7 @@ dcc_uri: dev/prompts/explain_code
 version: '1.0.0'
 schema: ''
 description: Explain code as if you are handing it over to a new owner
+dcc_definition_type: prompt
 dcc_tags:
   - dev
 invokable: true

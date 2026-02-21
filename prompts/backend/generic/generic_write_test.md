@@ -4,6 +4,7 @@ dcc_uri: dev/prompts/generic_write_test
 version: '0.2'
 schema: ''
 description: 'Generate tests for backend logic, services, or API handlers'
+dcc_definition_type: prompt
 dcc_tags:
   - dev
   - test

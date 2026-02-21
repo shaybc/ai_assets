@@ -6,6 +6,7 @@ description: >-
   Java + Spring Boot microservice rules (Spring Boot 3.x, Java 21+). Extends
   core, backend-core, and backend-java rules.
 version: '1.1'
+dcc_definition_type: rule
 dcc_tags:
   - dev
   - backend

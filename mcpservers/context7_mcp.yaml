@@ -3,6 +3,7 @@ dcc_uri: dev/mcpservers/context7_mcp
 description: Remote streamable-HTTP MCP server that connects Continue to Context7, providing external contextual knowledge and documentation retrieval over a hosted endpoint.
 version: 1.0.0
 schema: v1
+dcc_definition_type: mcp_server
 dcc_tags:
   - context7
 

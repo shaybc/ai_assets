@@ -3,6 +3,7 @@ dcc_uri: dev/mcpservers/docker_mcp
 description: MCP server that runs via Docker’s MCP gateway, enabling Continue to access containerized MCP tools through the local Docker runtime.
 version: 1.0.0
 schema: v1
+dcc_definition_type: mcp_server
 dcc_tags:
   - docker
 

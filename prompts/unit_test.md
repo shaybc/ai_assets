@@ -4,6 +4,7 @@ dcc_uri: dev/prompts/unit_test
 version: '0.3'
 schema: ''
 description: Generate unit tests for the selected code
+dcc_definition_type: prompt
 dcc_tags:
   - backend
   - spring

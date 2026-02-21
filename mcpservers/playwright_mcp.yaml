@@ -3,6 +3,7 @@ dcc_uri: dev/mcpservers/playwright_mcp
 description: MCP server that integrates Playwright into Continue, enabling agents to automate browsers, run end-to-end tests, and interact with web pages programmatically.
 version: 1.0.0
 schema: v1
+dcc_definition_type: mcp_server
 dcc_tags:
   - playwright
 

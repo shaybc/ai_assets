@@ -3,6 +3,7 @@ dcc_uri: dev/prompts/check_code_vulnerabilities
 version: "1.2"
 schema: v1
 description: check code for vulnerabilities
+dcc_definition_type: prompt
 dcc_tags:
   - backend
   - frontend

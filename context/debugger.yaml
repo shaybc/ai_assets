@@ -5,6 +5,7 @@ schema: v1
 description: Reference the contents of the local variables in the debugger.
   Currently only available in VS Code. Uses the top n levels (defaulting to 3)
   of the call stack for that thread.
+dcc_definition_type: context
 dcc_tags: []
 context:
   - provider: debugger

@@ -4,6 +4,7 @@ dcc_uri: dev/prompts/fe_ios_codereview
 description: Review Swift/SwiftUI code against project-specific rules
 invokable: true
 version: '0.1'
+dcc_definition_type: prompt
 dcc_tags:
   - dev
   - frontend

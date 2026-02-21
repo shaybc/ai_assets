@@ -2,8 +2,9 @@
 alwaysApply: false
 name: Using Flags
 dcc_uri: dev/rules/using_flags
-description: description: Standards for implementing and evaluating LaunchDarkly feature flags to ensure consistency, observability, safe rollouts, and predictable behavior across environments.
+description: Standards for implementing and evaluating LaunchDarkly feature flags to ensure consistency, observability, safe rollouts, and predictable behavior across environments.
 version: '1.0.0'
+dcc_definition_type: rule
 dcc_tags:
   - dev
   - flags

@@ -4,6 +4,7 @@ dcc_uri: dev/prompts/fix_a_bug
 version: '1.0.0'
 schema: ''
 description: Fix an error or bug and explain the root cause
+dcc_definition_type: prompt
 dcc_tags:
   - dev
 invokable: true

@@ -4,6 +4,7 @@ name: Backend Java Rules
 dcc_uri: dev/rules/backend_java_rules
 description: Java-specific backend development rules (Java 21+). Extends core and backend-core rules. Framework-specific rules are layered on top.
 version: '1.0.0'
+dcc_definition_type: rule
 dcc_tags:
   - dev
   - backend

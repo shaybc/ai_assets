@@ -3,6 +3,7 @@ name: Python Rules
 dcc_uri: dev/rules/python-rules
 description: Python development rules (Python 3.11+). Extends core rules.
 version: '1.0.0'
+dcc_definition_type: rule
 dcc_tags:
   - dev
   - backend

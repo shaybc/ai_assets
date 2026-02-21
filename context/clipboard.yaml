@@ -3,6 +3,10 @@ dcc_uri: dev/context/clipboard
 version: "1.1"
 schema: v1
 description: Reference recent clipboard items
-dcc_tags: []
+dcc_definition_type: context
+dcc_tags:
+  - clipboard
+  - dev
+  - context
 context:
   - provider: clipboard

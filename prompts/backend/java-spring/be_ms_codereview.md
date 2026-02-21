@@ -4,6 +4,7 @@ dcc_uri: dev/prompts/be_ms_codereview
 description: Review Spring Boot microservice code against project-specific rules
 invokable: true
 version: '0.1'
+dcc_definition_type: prompt
 dcc_tags:
   - dev
   - codereview

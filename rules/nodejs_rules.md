@@ -3,6 +3,7 @@ name: Node.js Rules
 dcc_uri: dev/rules/nodejs_rules
 description: Node.js development rules (Node 20+ LTS). Extends core and backend-core rules.
 version: '1.0.0'
+dcc_definition_type: rule
 dcc_tags:
   - dev
   - backend

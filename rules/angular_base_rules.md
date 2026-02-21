@@ -4,6 +4,7 @@ name: Angular Base Rules
 dcc_uri: dev/rules/angular_base_rules
 description: Angular-specific development rules (v19+). Extends core and frontend-core rules.
 version: '1.0.0'
+dcc_definition_type: rule
 dcc_tags:
   - dev
   - frontend

@@ -3,6 +3,7 @@ dcc_uri: dev/models/gemini_embedding
 version: "1.2"
 schema: v1
 description: DCC server routing to model Gemini embeddings through an OpenAI-compatible shim
+dcc_definition_type: model
 dcc_tags:
   - gemini_embedding
 models:

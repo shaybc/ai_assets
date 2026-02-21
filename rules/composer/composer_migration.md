@@ -3,6 +3,7 @@ name: Composer Migration
 dcc_uri: dev/rules/composer_migration
 description: Rules for converting and migrating WSBCC XML operation definitions (CCDSEServerOperation) to framework-free native Java. No IBM, WebSphere, or WSBCC dependencies in generated code.
 version: '1.0.0'
+dcc_definition_type: rule
 dcc_tags:
   - dev
   - backend

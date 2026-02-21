@@ -3,6 +3,7 @@ dcc_uri: dev/prompts/playwright_e2e
 version: "0.1"
 schema: v1
 description: ""
+dcc_definition_type: prompt
 dcc_tags:
   - frontend
   - web

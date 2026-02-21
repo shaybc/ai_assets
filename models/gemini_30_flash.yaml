@@ -3,6 +3,7 @@ dcc_uri: dev/models/gemini_30_flash
 version: "1.3"
 schema: v1
 description: DCC server routing to model Gemini 3.0 Flash through an OpenAI-compatible shim
+dcc_definition_type: model
 dcc_tags:
   - gemini_30_flash
 models:

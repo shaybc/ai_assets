@@ -3,6 +3,7 @@ name: Groovy Jenkins Pipeline
 dcc_uri: dev/rules/groovy_jenkins_rules
 description: Groovy development rules for Jenkins pipeline developers. Extends core rules.
 version: 1.0.0
+dcc_definition_type: rule
 dcc_tags:
   - dev
   - devops

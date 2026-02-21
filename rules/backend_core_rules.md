@@ -4,6 +4,7 @@ name: Backend Core Rules
 dcc_uri: dev/rules/backend_core_rules
 description: Technology-agnostic backend development rules. Extends core rules. Language and framework-specific rules are layered on top.
 version: '1.0.0'
+dcc_definition_type: rule
 dcc_tags:
   - dev
   - backend
